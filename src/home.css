@@ -1,0 +1,20 @@
+html, body{
+    height: 100%;
+}
+
+
+#content{
+    background: url(./pictures/home.jpg) no-repeat center / cover;
+    width: 100%;
+    min-height: 100%;
+    opacity: 0.8;
+    color: var(--pink);
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+#content p{
+    font-size: 1.3rem;
+    font-family: roboto;
+}

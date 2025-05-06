@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: roboto;
-    src: url(./fonts/Roboto-VariableFont_wdth\,wght.ttf);
+    src: url(./fonts/Roboto-VariableFont_wdth,wght.ttf);
 }
 @font-face {
     font-family: fantasy;
@@ -12,7 +12,7 @@
 *{
     --pink: #ed1250;
     --pale-yellow: #fff6da;
-    --dark-blue: #0d517f;
+    --dark-blue: #09324e;
     --orange: #fbc99d;
 
     margin: 0px;
@@ -20,10 +20,14 @@
     padding: 0px;
 }
 
+html{
+    min-height: 100% ;
+}
 
 
-
-.main-nav{
+.main-nav{ 
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 20px 30px;
@@ -31,6 +35,8 @@
     color: var(--pale-yellow);
     font-family: roboto;
     align-items: center;
+    z-index: 2;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
 .nav-buttons{
