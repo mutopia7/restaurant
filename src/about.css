@@ -1,0 +1,13 @@
+.about{
+    background-color: var(--white);
+    background-image: none;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.about p {
+    font-size: 1.3rem;
+    font-family: fantasy;
+}

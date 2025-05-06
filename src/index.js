@@ -1,5 +1,6 @@
 import { createHomePage} from "./home.js"
 import { createMenuPage} from "./menu.js"
+import { createAboutPage } from "./about.js";
 
 createHomePage()
 
@@ -13,7 +14,13 @@ home.addEventListener("click", ()=> {
 
 menu.addEventListener("click", ()=> {
     createMenuPage()
+});
+
+about.addEventListener("click", ()=> {
+    createAboutPage()
 })
+
+
 
 
 
