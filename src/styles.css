@@ -1,3 +1,55 @@
-body{
-    background-color: aqua;
+
+@font-face {
+    font-family: roboto;
+    src: url(./fonts/Roboto-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: fantasy;
+    src: url(./fonts/Tagesschrift-Regular.ttf);
+}
+
+
+*{
+    --pink: #ed1250;
+    --pale-yellow: #fff6da;
+    --dark-blue: #0d517f;
+    --orange: #fbc99d;
+
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+
+
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background-color: var(--dark-blue);
+    color: var(--pale-yellow);
+    font-family: roboto;
+    align-items: center;
+}
+
+.nav-buttons{
+    display: flex;
+    gap: 70px;
+}
+
+.nav-buttons button{
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    color: var(--pale-yellow);
+}
+
+.nav-buttons button:hover{
+    color: white;
+}
+
+#logo{
+    letter-spacing: 5px;
+    color: var(--pink);
 }
