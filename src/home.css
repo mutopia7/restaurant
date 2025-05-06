@@ -3,7 +3,7 @@ html, body{
 }
 
 
-#content{
+.home{
     background: url(./pictures/home.jpg) no-repeat center / cover;
     width: 100%;
     min-height: 100%;
@@ -14,7 +14,7 @@ html, body{
     padding-top: 150px;
 }
 
-#content p{
+.home p{
     font-size: 1.3rem;
     font-family: roboto;
 }
